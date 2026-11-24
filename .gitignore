@@ -1,0 +1,23 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Ignore the output video from Git but not videos you import into src/.
+out
+# áudios de narração gerados e prévias (regeneráveis)
+public/shorts/
+marketing/semana-*/revisao/
+marketing/semana-*/audio-voz-edge/
+marketing/semana-*/previews/
+marketing/voz/*.wav
+marketing/voz/*.mp3
+src/shorts/data.json.partial
+# ambiente local / clone do remoto
+.venv-tts/
+mundo-tec-shorts/
+# privado: métricas da conta e amostra da voz (repositório é público)
+marketing/posts.csv
+marketing/aprendizados.md
+marketing/voz/
+marketing/semana-*/data.voz-edge.json

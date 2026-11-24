@@ -1,0 +1,395 @@
+[
+  {
+    "id": "d1-whatsapp-duas-etapas",
+    "dia": "Qua 25/11",
+    "titulo": "Ative isso no WhatsApp hoje",
+    "legenda": "Se alguém pegar o código do seu WhatsApp, leva sua conta. Essa trava impede isso 🔒\n\nConfigurações > Conta > Confirmação em duas etapas > Ativar\n\nManda pra alguém da família que ainda não ativou 👇\n\n🎙️ Narração com a minha voz gerada por IA.\n\n#whatsapp #seguranca #golpe #dicas #tecnologia",
+    "cenas": [
+      {
+        "type": "hook",
+        "kicker": "ALERTA",
+        "title": "Ative isso no *WhatsApp* hoje",
+        "emoji": "🔒",
+        "vo": "Se alguém pegar o código do seu WhatsApp, leva sua conta em um minuto. Ative isso hoje."
+      },
+      {
+        "type": "chat",
+        "title": "Como o golpe funciona",
+        "user": "Oi! Te mandei um código de 6 dígitos sem querer, me passa?",
+        "ai": "Mandei: 482-913",
+        "bad": true,
+        "vo": "O golpista pede o código que chegou por SMS. Com ele, entra no seu WhatsApp e pede Pix para os seus contatos."
+      },
+      {
+        "type": "steps",
+        "title": "Coloque uma segunda trava",
+        "path": [
+          "Configurações",
+          "Conta",
+          "Confirmação em duas etapas",
+          "Ativar",
+          "Crie um PIN de 6 dígitos"
+        ],
+        "vo": "Vai em Configurações, Conta, Confirmação em duas etapas, toca em Ativar e cria um PIN de seis dígitos."
+      },
+      {
+        "type": "compare",
+        "title": "Com o PIN ativado",
+        "bad": {
+          "label": "Sem PIN",
+          "text": "Código do SMS = conta roubada"
+        },
+        "good": {
+          "label": "Com PIN",
+          "text": "Golpista trava no PIN"
+        },
+        "vo": "Agora, mesmo que roubem o código do SMS, o golpista trava no seu PIN."
+      },
+      {
+        "type": "cta",
+        "text": "Manda pra quem ainda não ativou",
+        "emoji": "📲",
+        "vo": "Manda esse vídeo pra alguém da família que ainda não ativou."
+      }
+    ]
+  },
+  {
+    "id": "d2-black-friday-golpe",
+    "dia": "Qui 26/11",
+    "titulo": "Black Friday: 3 sinais de site golpe",
+    "legenda": "Amanhã é Black Friday e os sites falsos já estão no ar 🚨\n\nAntes de pagar, confere esses 3 sinais.\n\nSalva e manda pra quem vai comprar amanhã!\n\n🎙️ Narração com a minha voz gerada por IA.\n\n#blackfriday #golpe #compraonline #pix #dicas",
+    "cenas": [
+      {
+        "type": "hook",
+        "kicker": "BLACK FRIDAY",
+        "title": "Esse site é *golpe*?",
+        "emoji": "🚨",
+        "vo": "Amanhã é Black Friday. Antes de pagar, confere esses três sinais de site golpe."
+      },
+      {
+        "type": "compare",
+        "title": "1. Olhe o endereço",
+        "bad": {
+          "label": "Falso",
+          "text": "super-0fertas-bf.shop"
+        },
+        "good": {
+          "label": "Oficial",
+          "text": "loja oficial digitada por você"
+        },
+        "vo": "Um: o endereço. Letra trocada, número no lugar de letra ou final estranho é sinal vermelho."
+      },
+      {
+        "type": "price",
+        "title": "2. Desconto bom demais",
+        "from": "R$ 7.999",
+        "to": "R$ 899",
+        "off": "-89%",
+        "vo": "Dois: desconto bom demais. Celular top por menos de mil reais não é promoção, é isca."
+      },
+      {
+        "type": "checklist",
+        "title": "3. Pressão para pagar",
+        "items": [
+          {
+            "text": "Só aceita Pix",
+            "ok": false
+          },
+          {
+            "text": "Cronômetro de 5 minutos",
+            "ok": false
+          },
+          {
+            "text": "Pix para pessoa física",
+            "ok": false
+          }
+        ],
+        "vo": "Três: pressa e só Pix. Cronômetro correndo e Pix para pessoa física, fecha a aba."
+      },
+      {
+        "type": "cta",
+        "text": "Salva e manda pra quem vai comprar",
+        "emoji": "🛒",
+        "vo": "Salva e manda pra quem vai comprar amanhã."
+      }
+    ]
+  },
+  {
+    "id": "d3-copiar-texto-foto",
+    "dia": "Sex 27/11",
+    "titulo": "Copie o texto de qualquer foto",
+    "legenda": "Não precisa digitar nada: o seu celular copia o texto de qualquer foto 📸\n\nAndroid: Google Fotos > Lens > Texto\niPhone: toque e segure no texto da foto\n\nSalva pra não esquecer 👇\n\n🎙️ Narração com a minha voz gerada por IA.\n\n#android #iphone #dicas #funcaoescondida #tecnologia",
+    "cenas": [
+      {
+        "type": "hook",
+        "kicker": "FUNÇÃO ESCONDIDA",
+        "title": "Copie o texto de *qualquer foto*",
+        "emoji": "📸",
+        "vo": "Para de digitar o que está na foto. Seu celular copia o texto pra você."
+      },
+      {
+        "type": "scan",
+        "title": "Funciona com",
+        "lines": [
+          "Wi-Fi: CasaSilva_5G",
+          "Senha: 7Hk29#pLm",
+          "Placa, cardápio, documento"
+        ],
+        "vo": "Senha do Wi-Fi, placa, cardápio, documento. Qualquer texto que aparece numa foto."
+      },
+      {
+        "type": "steps",
+        "title": "No Android",
+        "path": [
+          "Abra a foto no Google Fotos",
+          "Toque em Lens",
+          "Toque em Texto",
+          "Selecione e copie"
+        ],
+        "vo": "No Android, abre a foto no Google Fotos, toca em Lens, depois em Texto, seleciona e copia."
+      },
+      {
+        "type": "steps",
+        "title": "No iPhone",
+        "path": [
+          "Abra a foto",
+          "Toque e segure no texto",
+          "Copiar"
+        ],
+        "vo": "No iPhone é ainda mais fácil: toca e segura em cima do texto, e copia."
+      },
+      {
+        "type": "cta",
+        "text": "Salva pra usar depois",
+        "emoji": "🔖",
+        "vo": "Salva esse vídeo pra usar depois."
+      }
+    ]
+  },
+  {
+    "id": "d4-conta-de-luz-ia",
+    "dia": "Sáb 28/11",
+    "titulo": "Conta de luz alta? A IA explica",
+    "legenda": "Sua conta de luz veio alta e você não entende nada do que está escrito? ⚡\n\nTira uma foto e manda esse pedido para o ChatGPT ou o Gemini:\n\"Explique essa conta de luz: quanto consumi, quais taxas e bandeira estão cobrando e o que mais pesou no valor.\"\n\n⚠️ Cubra seu CPF e endereço antes de enviar.\n\nComenta LUZ se a sua também veio alta 👇\n\n🎙️ Narração com a minha voz gerada por IA.\n\n#contadeluz #ia #chatgpt #gemini #dicas",
+    "cenas": [
+      {
+        "type": "hook",
+        "kicker": "CONTA DE LUZ",
+        "title": "Veio alta? A *IA* te explica",
+        "emoji": "⚡",
+        "vo": "Sua conta de luz veio alta e você não entende nada? A inteligência artificial explica pra você."
+      },
+      {
+        "type": "bill",
+        "title": "Tire uma foto da conta",
+        "rows": [
+          [
+            "Consumo",
+            "kWh"
+          ],
+          [
+            "Bandeira tarifária",
+            "R$"
+          ],
+          [
+            "Tributos e taxas",
+            "R$"
+          ],
+          [
+            "Total",
+            "R$"
+          ]
+        ],
+        "vo": "Tira uma foto da conta. Antes, cobre o seu CPF e o endereço."
+      },
+      {
+        "type": "chat",
+        "title": "Mande para o ChatGPT ou Gemini",
+        "user": "Explique essa conta de luz: quanto consumi, quais taxas e bandeira estão cobrando e o que mais pesou no valor.",
+        "ai": "Seu consumo foi... A bandeira deste mês acrescentou...",
+        "vo": "Manda pro ChatGPT ou pro Gemini com esse pedido: explique essa conta, quanto consumi, quais taxas e bandeira estão cobrando, e o que mais pesou."
+      },
+      {
+        "type": "cards",
+        "title": "Depois pergunte",
+        "cards": [
+          "Compare com o mês passado",
+          "Quais aparelhos gastam mais?",
+          "Como economizar em casa?"
+        ],
+        "vo": "Depois, manda a conta do mês passado e pede pra comparar, e pergunta como economizar."
+      },
+      {
+        "type": "cta",
+        "text": "Comenta LUZ se a sua veio alta",
+        "emoji": "💬",
+        "vo": "Comenta luz se a sua também veio alta."
+      }
+    ]
+  },
+  {
+    "id": "d5-whatsapp-espaco",
+    "dia": "Dom 29/11",
+    "titulo": "WhatsApp cheio? Não apague conversas",
+    "legenda": "Memória cheia por causa do WhatsApp? Não precisa apagar conversa nenhuma 📦\n\nConfigurações > Armazenamento e dados > Gerenciar armazenamento\nApague só os arquivos grandes e os encaminhados várias vezes.\n\nManda pra quem vive com o celular cheio 😅\n\n🎙️ Narração com a minha voz gerada por IA.\n\n#whatsapp #memoriacheia #celular #dicas #tecnologia",
+    "cenas": [
+      {
+        "type": "hook",
+        "kicker": "MEMÓRIA CHEIA?",
+        "title": "Não apague suas *conversas*",
+        "emoji": "📦",
+        "vo": "Celular cheio por causa do WhatsApp? Não apaga suas conversas. Faz isso."
+      },
+      {
+        "type": "storage",
+        "title": "O que ocupa espaço de verdade",
+        "segments": [
+          {
+            "label": "Vídeos",
+            "pct": 52
+          },
+          {
+            "label": "Fotos",
+            "pct": 24
+          },
+          {
+            "label": "Áudios",
+            "pct": 14
+          },
+          {
+            "label": "Textos",
+            "pct": 2
+          },
+          {
+            "label": "Outros",
+            "pct": 8
+          }
+        ],
+        "note": "Exemplo ilustrativo",
+        "vo": "O que enche a memória são vídeos, fotos e áudios. As mensagens de texto quase não ocupam nada."
+      },
+      {
+        "type": "steps",
+        "title": "Abra o gerenciador",
+        "path": [
+          "Configurações",
+          "Armazenamento e dados",
+          "Gerenciar armazenamento"
+        ],
+        "vo": "Vai em Configurações, Armazenamento e dados, Gerenciar armazenamento."
+      },
+      {
+        "type": "cards",
+        "title": "Apague só isso",
+        "cards": [
+          "Arquivos maiores que 5 MB",
+          "Encaminhados várias vezes",
+          "Grupos que você nem lê"
+        ],
+        "vo": "Ali aparecem os arquivos grandes e os encaminhados várias vezes. Apaga só eles. As conversas ficam."
+      },
+      {
+        "type": "cta",
+        "text": "Manda pra quem vive com o celular cheio",
+        "emoji": "😅",
+        "vo": "Manda pra quem vive com o celular cheio."
+      }
+    ]
+  },
+  {
+    "id": "d6-notebook-esquentando",
+    "dia": "Seg 30/11",
+    "titulo": "Notebook esquentando: 3 sinais",
+    "legenda": "Notebook esquentando é o começo de muito defeito 🔥\n\n3 sinais: ventoinha barulhenta, travando em tarefa simples e desligando sozinho.\n\nNão use na cama ou no sofá, e faça limpeza interna pelo menos uma vez por ano.\n\nManda pra quem usa notebook na cama 👇\n\n🎙️ Narração com a minha voz gerada por IA.\n\n#notebook #manutencao #informatica #dicas #tecnologia",
+    "cenas": [
+      {
+        "type": "hook",
+        "kicker": "NOTEBOOK",
+        "title": "Esquentando? *3 sinais* de perigo",
+        "emoji": "🔥",
+        "vo": "Notebook esquentando é o começo de muito defeito. Fica de olho nesses três sinais."
+      },
+      {
+        "type": "gauge",
+        "title": "Sinais de superaquecimento",
+        "signs": [
+          "Ventoinha barulhenta o tempo todo",
+          "Travando em tarefas simples",
+          "Desligando sozinho"
+        ],
+        "vo": "Ventoinha fazendo barulho o tempo todo, travando em tarefa simples, e o pior: desligando sozinho."
+      },
+      {
+        "type": "compare",
+        "title": "O erro mais comum",
+        "bad": {
+          "label": "Na cama/sofá",
+          "text": "Tampa a entrada de ar"
+        },
+        "good": {
+          "label": "Mesa ou suporte",
+          "text": "Ar circula livre"
+        },
+        "vo": "O erro mais comum é usar na cama ou no sofá. O tecido tampa a entrada de ar."
+      },
+      {
+        "type": "cards",
+        "title": "O que fazer",
+        "cards": [
+          "Use em superfície dura",
+          "Ctrl + Shift + Esc: veja o que pesa",
+          "Limpeza interna 1x por ano"
+        ],
+        "vo": "Usa numa superfície dura, abre o Gerenciador de Tarefas pra ver o que está pesando, e faz uma limpeza interna pelo menos uma vez por ano."
+      },
+      {
+        "type": "cta",
+        "text": "Manda pra quem usa notebook na cama",
+        "emoji": "💻",
+        "vo": "Manda pra quem usa notebook na cama."
+      }
+    ]
+  },
+  {
+    "id": "d7-3-pedidos-ia",
+    "dia": "Ter 01/12",
+    "titulo": "3 pedidos para a IA que poupam seu tempo",
+    "legenda": "3 pedidos para copiar e colar no ChatGPT ou no Gemini 🤖\n\n1️⃣ \"Resuma este texto em 5 tópicos e diga o que eu preciso fazer\"\n2️⃣ \"Escreva uma mensagem educada e firme para [situação]\"\n3️⃣ \"Tenho [itens] na geladeira: monte o cardápio da semana e a lista de compras\"\n\nSalva pra testar hoje 🔖\n\n🎙️ Narração com a minha voz gerada por IA.\n\n#ia #chatgpt #gemini #produtividade #dicas",
+    "cenas": [
+      {
+        "type": "hook",
+        "kicker": "IA NO DIA A DIA",
+        "title": "3 pedidos que *poupam* seu tempo",
+        "emoji": "🤖",
+        "vo": "Três pedidos pra copiar e colar no ChatGPT ou no Gemini que vão te poupar tempo."
+      },
+      {
+        "type": "chat",
+        "title": "1. Resumo que vira ação",
+        "user": "Resuma este texto em 5 tópicos e diga o que eu preciso fazer.",
+        "ai": "1. Prazo: sexta... Você precisa: enviar o documento...",
+        "vo": "Um: cola aquele textão, ou aquela mensagem de grupo, e pede: resuma em cinco tópicos e diga o que eu preciso fazer."
+      },
+      {
+        "type": "chat",
+        "title": "2. Mensagem difícil",
+        "user": "Escreva uma mensagem educada e firme para cobrar um cliente que atrasou o pagamento.",
+        "ai": "Olá, tudo bem? Passando para lembrar...",
+        "vo": "Dois: mensagem difícil. Peça: escreva uma mensagem educada e firme, e diga a situação."
+      },
+      {
+        "type": "chat",
+        "title": "3. Cardápio da semana",
+        "user": "Tenho ovos, arroz, frango e tomate. Monte o cardápio da semana e a lista de compras.",
+        "ai": "Segunda: frango com arroz... Lista: cebola, alho...",
+        "vo": "Três: fala o que tem na geladeira e pede o cardápio da semana com a lista de compras."
+      },
+      {
+        "type": "cta",
+        "text": "Salva pra testar hoje",
+        "emoji": "🔖",
+        "vo": "Salva pra testar hoje."
+      }
+    ]
+  }
+]

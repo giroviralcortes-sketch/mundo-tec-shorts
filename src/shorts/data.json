@@ -1,0 +1,3071 @@
+[
+ {
+  "id": "d1-whatsapp-duas-etapas",
+  "titulo": "Ative isso no WhatsApp hoje",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "ALERTA",
+    "title": "Ative isso no *WhatsApp* hoje",
+    "emoji": "🔒",
+    "vo": "Se alguém pegar o código do seu WhatsApp, leva sua conta em um minuto. Ative isso hoje.",
+    "audio": "shorts/d1-whatsapp-duas-etapas/s0.mp3",
+    "audioSec": 5.304,
+    "words": [
+     {
+      "text": "Se",
+      "startMs": 0,
+      "endMs": 160
+     },
+     {
+      "text": "alguém",
+      "startMs": 160,
+      "endMs": 380
+     },
+     {
+      "text": "pegar",
+      "startMs": 380,
+      "endMs": 700
+     },
+     {
+      "text": "o",
+      "startMs": 700,
+      "endMs": 840
+     },
+     {
+      "text": "código",
+      "startMs": 840,
+      "endMs": 1180
+     },
+     {
+      "text": "do",
+      "startMs": 1180,
+      "endMs": 1380
+     },
+     {
+      "text": "seu",
+      "startMs": 1380,
+      "endMs": 1560
+     },
+     {
+      "text": "WhatsApp",
+      "startMs": 1560,
+      "endMs": 2040
+     },
+     {
+      "text": "leva",
+      "startMs": 2540,
+      "endMs": 2820
+     },
+     {
+      "text": "sua",
+      "startMs": 2820,
+      "endMs": 3060
+     },
+     {
+      "text": "conta",
+      "startMs": 3060,
+      "endMs": 3360
+     },
+     {
+      "text": "em",
+      "startMs": 3360,
+      "endMs": 3560
+     },
+     {
+      "text": "um",
+      "startMs": 3560,
+      "endMs": 3660
+     },
+     {
+      "text": "minuto",
+      "startMs": 3660,
+      "endMs": 4060
+     },
+     {
+      "text": "Ative",
+      "startMs": 4140,
+      "endMs": 4500
+     },
+     {
+      "text": "isso",
+      "startMs": 4500,
+      "endMs": 4760
+     },
+     {
+      "text": "hoje",
+      "startMs": 4760,
+      "endMs": 5100
+     }
+    ]
+   },
+   {
+    "type": "chat",
+    "title": "Como o golpe funciona",
+    "user": "Oi! Te mandei um código de 6 dígitos sem querer, me passa?",
+    "ai": "Mandei: 482-913",
+    "bad": true,
+    "vo": "O golpista pede o código que chegou por SMS. Com ele, entra no seu WhatsApp e pede Pix para os seus contatos.",
+    "audio": "shorts/d1-whatsapp-duas-etapas/s1.mp3",
+    "audioSec": 9.48,
+    "words": [
+     {
+      "text": "O",
+      "startMs": 0,
+      "endMs": 100
+     },
+     {
+      "text": "golpista",
+      "startMs": 100,
+      "endMs": 680
+     },
+     {
+      "text": "pede",
+      "startMs": 680,
+      "endMs": 1100
+     },
+     {
+      "text": "o",
+      "startMs": 1100,
+      "endMs": 1180
+     },
+     {
+      "text": "código",
+      "startMs": 1180,
+      "endMs": 1540
+     },
+     {
+      "text": "que",
+      "startMs": 1540,
+      "endMs": 1780
+     },
+     {
+      "text": "chegou",
+      "startMs": 1780,
+      "endMs": 2100
+     },
+     {
+      "text": "por",
+      "startMs": 2100,
+      "endMs": 2460
+     },
+     {
+      "text": "SMS",
+      "startMs": 2460,
+      "endMs": 3820
+     },
+     {
+      "text": "Com",
+      "startMs": 3820,
+      "endMs": 4120
+     },
+     {
+      "text": "ele",
+      "startMs": 4120,
+      "endMs": 4460
+     },
+     {
+      "text": "entra",
+      "startMs": 4680,
+      "endMs": 5220
+     },
+     {
+      "text": "no",
+      "startMs": 5220,
+      "endMs": 5420
+     },
+     {
+      "text": "seu",
+      "startMs": 5420,
+      "endMs": 5620
+     },
+     {
+      "text": "WhatsApp",
+      "startMs": 5620,
+      "endMs": 6120
+     },
+     {
+      "text": "e",
+      "startMs": 6120,
+      "endMs": 6520
+     },
+     {
+      "text": "pede",
+      "startMs": 6520,
+      "endMs": 6880
+     },
+     {
+      "text": "Pix",
+      "startMs": 6880,
+      "endMs": 7300
+     },
+     {
+      "text": "para",
+      "startMs": 7300,
+      "endMs": 7600
+     },
+     {
+      "text": "os",
+      "startMs": 7600,
+      "endMs": 7700
+     },
+     {
+      "text": "seus",
+      "startMs": 7700,
+      "endMs": 7820
+     },
+     {
+      "text": "contatos",
+      "startMs": 7820,
+      "endMs": 8480
+     }
+    ]
+   },
+   {
+    "type": "steps",
+    "title": "Coloque uma segunda trava",
+    "path": [
+     "Configurações",
+     "Conta",
+     "Confirmação em duas etapas",
+     "Ativar",
+     "Crie um PIN de 6 dígitos"
+    ],
+    "vo": "Vai em Configurações, Conta, Confirmação em duas etapas, toca em Ativar e cria um PIN de seis dígitos.",
+    "audio": "shorts/d1-whatsapp-duas-etapas/s2.mp3",
+    "audioSec": 8.256,
+    "words": [
+     {
+      "text": "Vai",
+      "startMs": 0,
+      "endMs": 300
+     },
+     {
+      "text": "em",
+      "startMs": 300,
+      "endMs": 500
+     },
+     {
+      "text": "Configurações",
+      "startMs": 500,
+      "endMs": 1440
+     },
+     {
+      "text": "Conta",
+      "startMs": 1800,
+      "endMs": 2060
+     },
+     {
+      "text": "Confirmação",
+      "startMs": 2260,
+      "endMs": 2900
+     },
+     {
+      "text": "em",
+      "startMs": 2900,
+      "endMs": 3060
+     },
+     {
+      "text": "duas",
+      "startMs": 3060,
+      "endMs": 3200
+     },
+     {
+      "text": "etapas",
+      "startMs": 3200,
+      "endMs": 3960
+     },
+     {
+      "text": "toca",
+      "startMs": 4140,
+      "endMs": 4320
+     },
+     {
+      "text": "em",
+      "startMs": 4320,
+      "endMs": 4500
+     },
+     {
+      "text": "Ativar",
+      "startMs": 4500,
+      "endMs": 5060
+     },
+     {
+      "text": "e",
+      "startMs": 5060,
+      "endMs": 5300
+     },
+     {
+      "text": "cria",
+      "startMs": 5300,
+      "endMs": 5600
+     },
+     {
+      "text": "um",
+      "startMs": 5600,
+      "endMs": 5740
+     },
+     {
+      "text": "PIN",
+      "startMs": 5740,
+      "endMs": 6080
+     },
+     {
+      "text": "de",
+      "startMs": 6080,
+      "endMs": 6180
+     },
+     {
+      "text": "seis",
+      "startMs": 6180,
+      "endMs": 6480
+     },
+     {
+      "text": "dígitos",
+      "startMs": 6480,
+      "endMs": 7040
+     }
+    ]
+   },
+   {
+    "type": "compare",
+    "title": "Com o PIN ativado",
+    "bad": {
+     "label": "Sem PIN",
+     "text": "Código do SMS = conta roubada"
+    },
+    "good": {
+     "label": "Com PIN",
+     "text": "Golpista trava no PIN"
+    },
+    "vo": "Agora, mesmo que roubem o código do SMS, o golpista trava no seu PIN.",
+    "audio": "shorts/d1-whatsapp-duas-etapas/s3.mp3",
+    "audioSec": 5.808,
+    "words": [
+     {
+      "text": "Agora",
+      "startMs": 0,
+      "endMs": 320
+     },
+     {
+      "text": "mesmo",
+      "startMs": 500,
+      "endMs": 720
+     },
+     {
+      "text": "que",
+      "startMs": 720,
+      "endMs": 1020
+     },
+     {
+      "text": "roubem",
+      "startMs": 1020,
+      "endMs": 1460
+     },
+     {
+      "text": "o",
+      "startMs": 1460,
+      "endMs": 1580
+     },
+     {
+      "text": "código",
+      "startMs": 1580,
+      "endMs": 2020
+     },
+     {
+      "text": "do",
+      "startMs": 2020,
+      "endMs": 2340
+     },
+     {
+      "text": "SMS",
+      "startMs": 2340,
+      "endMs": 3880
+     },
+     {
+      "text": "o",
+      "startMs": 3880,
+      "endMs": 3940
+     },
+     {
+      "text": "golpista",
+      "startMs": 3940,
+      "endMs": 4500
+     },
+     {
+      "text": "trava",
+      "startMs": 4500,
+      "endMs": 4860
+     },
+     {
+      "text": "no",
+      "startMs": 4860,
+      "endMs": 5060
+     },
+     {
+      "text": "seu",
+      "startMs": 5060,
+      "endMs": 5240
+     },
+     {
+      "text": "PIN",
+      "startMs": 5240,
+      "endMs": 5580
+     }
+    ]
+   },
+   {
+    "type": "cta",
+    "text": "Manda pra quem ainda não ativou",
+    "emoji": "📲",
+    "vo": "Manda esse vídeo pra alguém da família que ainda não ativou.",
+    "audio": "shorts/d1-whatsapp-duas-etapas/s4.mp3",
+    "audioSec": 4.704,
+    "words": [
+     {
+      "text": "Manda",
+      "startMs": 0,
+      "endMs": 300
+     },
+     {
+      "text": "esse",
+      "startMs": 300,
+      "endMs": 520
+     },
+     {
+      "text": "vídeo",
+      "startMs": 520,
+      "endMs": 1040
+     },
+     {
+      "text": "pra",
+      "startMs": 1040,
+      "endMs": 1360
+     },
+     {
+      "text": "alguém",
+      "startMs": 1360,
+      "endMs": 1760
+     },
+     {
+      "text": "da",
+      "startMs": 1760,
+      "endMs": 1940
+     },
+     {
+      "text": "família",
+      "startMs": 1940,
+      "endMs": 2480
+     },
+     {
+      "text": "que",
+      "startMs": 2480,
+      "endMs": 2740
+     },
+     {
+      "text": "ainda",
+      "startMs": 2740,
+      "endMs": 2980
+     },
+     {
+      "text": "não",
+      "startMs": 2980,
+      "endMs": 3240
+     },
+     {
+      "text": "ativou",
+      "startMs": 3240,
+      "endMs": 3760
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "d2-black-friday-golpe",
+  "titulo": "Black Friday: 3 sinais de site golpe",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "BLACK FRIDAY",
+    "title": "Esse site é *golpe*?",
+    "emoji": "🚨",
+    "vo": "Amanhã é Black Friday. Antes de pagar, confere esses três sinais de site golpe.",
+    "audio": "shorts/d2-black-friday-golpe/s0.mp3",
+    "audioSec": 5.544,
+    "words": [
+     {
+      "text": "Amanhã",
+      "startMs": 0,
+      "endMs": 420
+     },
+     {
+      "text": "é",
+      "startMs": 420,
+      "endMs": 540
+     },
+     {
+      "text": "Black",
+      "startMs": 540,
+      "endMs": 820
+     },
+     {
+      "text": "Friday",
+      "startMs": 820,
+      "endMs": 1320
+     },
+     {
+      "text": "Antes",
+      "startMs": 1620,
+      "endMs": 2000
+     },
+     {
+      "text": "de",
+      "startMs": 2000,
+      "endMs": 2140
+     },
+     {
+      "text": "pagar",
+      "startMs": 2140,
+      "endMs": 2480
+     },
+     {
+      "text": "confere",
+      "startMs": 2720,
+      "endMs": 3200
+     },
+     {
+      "text": "esses",
+      "startMs": 3200,
+      "endMs": 3420
+     },
+     {
+      "text": "três",
+      "startMs": 3420,
+      "endMs": 3740
+     },
+     {
+      "text": "sinais",
+      "startMs": 3740,
+      "endMs": 4260
+     },
+     {
+      "text": "de",
+      "startMs": 4260,
+      "endMs": 4340
+     },
+     {
+      "text": "site",
+      "startMs": 4340,
+      "endMs": 4600
+     },
+     {
+      "text": "golpe",
+      "startMs": 4600,
+      "endMs": 4900
+     }
+    ]
+   },
+   {
+    "type": "compare",
+    "title": "1. Olhe o endereço",
+    "bad": {
+     "label": "Falso",
+     "text": "super-0fertas-bf.shop"
+    },
+    "good": {
+     "label": "Oficial",
+     "text": "loja oficial digitada por você"
+    },
+    "vo": "Um: o endereço. Letra trocada, número no lugar de letra ou final estranho é sinal vermelho.",
+    "audio": "shorts/d2-black-friday-golpe/s1.mp3",
+    "audioSec": 7.56,
+    "words": [
+     {
+      "text": "Um",
+      "startMs": 0,
+      "endMs": 620
+     },
+     {
+      "text": "o",
+      "startMs": 620,
+      "endMs": 640
+     },
+     {
+      "text": "endereço",
+      "startMs": 640,
+      "endMs": 1300
+     },
+     {
+      "text": "Letra",
+      "startMs": 1520,
+      "endMs": 1840
+     },
+     {
+      "text": "trocada",
+      "startMs": 1840,
+      "endMs": 2460
+     },
+     {
+      "text": "número",
+      "startMs": 2660,
+      "endMs": 2840
+     },
+     {
+      "text": "no",
+      "startMs": 2840,
+      "endMs": 3080
+     },
+     {
+      "text": "lugar",
+      "startMs": 3080,
+      "endMs": 3320
+     },
+     {
+      "text": "de",
+      "startMs": 3320,
+      "endMs": 3500
+     },
+     {
+      "text": "letra",
+      "startMs": 3500,
+      "endMs": 3880
+     },
+     {
+      "text": "ou",
+      "startMs": 3880,
+      "endMs": 3940
+     },
+     {
+      "text": "final",
+      "startMs": 3940,
+      "endMs": 4180
+     },
+     {
+      "text": "estranho",
+      "startMs": 4180,
+      "endMs": 4900
+     },
+     {
+      "text": "é",
+      "startMs": 4900,
+      "endMs": 5080
+     },
+     {
+      "text": "sinal",
+      "startMs": 5080,
+      "endMs": 5380
+     },
+     {
+      "text": "vermelho",
+      "startMs": 5380,
+      "endMs": 5900
+     }
+    ]
+   },
+   {
+    "type": "price",
+    "title": "2. Desconto bom demais",
+    "from": "R$ 7.999",
+    "to": "R$ 899",
+    "off": "-89%",
+    "vo": "Dois: desconto bom demais. Celular top por menos de mil reais não é promoção, é isca.",
+    "audio": "shorts/d2-black-friday-golpe/s2.mp3",
+    "audioSec": 6.768,
+    "words": [
+     {
+      "text": "Dois",
+      "startMs": 0,
+      "endMs": 860
+     },
+     {
+      "text": "desconto",
+      "startMs": 860,
+      "endMs": 1500
+     },
+     {
+      "text": "bom",
+      "startMs": 1500,
+      "endMs": 1760
+     },
+     {
+      "text": "demais",
+      "startMs": 1760,
+      "endMs": 2120
+     },
+     {
+      "text": "Celular",
+      "startMs": 2620,
+      "endMs": 3180
+     },
+     {
+      "text": "top",
+      "startMs": 3180,
+      "endMs": 3520
+     },
+     {
+      "text": "por",
+      "startMs": 3520,
+      "endMs": 3900
+     },
+     {
+      "text": "menos",
+      "startMs": 3900,
+      "endMs": 4160
+     },
+     {
+      "text": "de",
+      "startMs": 4160,
+      "endMs": 4340
+     },
+     {
+      "text": "mil",
+      "startMs": 4340,
+      "endMs": 4500
+     },
+     {
+      "text": "reais",
+      "startMs": 4500,
+      "endMs": 4860
+     },
+     {
+      "text": "não",
+      "startMs": 4860,
+      "endMs": 5160
+     },
+     {
+      "text": "é",
+      "startMs": 5160,
+      "endMs": 5300
+     },
+     {
+      "text": "promoção",
+      "startMs": 5300,
+      "endMs": 5900
+     },
+     {
+      "text": "é",
+      "startMs": 6080,
+      "endMs": 6200
+     },
+     {
+      "text": "isca",
+      "startMs": 6200,
+      "endMs": 6560
+     }
+    ]
+   },
+   {
+    "type": "checklist",
+    "title": "3. Pressão para pagar",
+    "items": [
+     {
+      "text": "Só aceita Pix",
+      "ok": false
+     },
+     {
+      "text": "Cronômetro de 5 minutos",
+      "ok": false
+     },
+     {
+      "text": "Pix para pessoa física",
+      "ok": false
+     }
+    ],
+    "vo": "Três: pressa e só Pix. Cronômetro correndo e Pix para pessoa física, fecha a aba.",
+    "audio": "shorts/d2-black-friday-golpe/s3.mp3",
+    "audioSec": 6.192,
+    "words": [
+     {
+      "text": "Três",
+      "startMs": 0,
+      "endMs": 540
+     },
+     {
+      "text": "pressa",
+      "startMs": 540,
+      "endMs": 1140
+     },
+     {
+      "text": "e",
+      "startMs": 1140,
+      "endMs": 1300
+     },
+     {
+      "text": "só",
+      "startMs": 1300,
+      "endMs": 1460
+     },
+     {
+      "text": "Pix",
+      "startMs": 1460,
+      "endMs": 1900
+     },
+     {
+      "text": "Cronômetro",
+      "startMs": 2140,
+      "endMs": 2800
+     },
+     {
+      "text": "correndo",
+      "startMs": 2800,
+      "endMs": 3380
+     },
+     {
+      "text": "e",
+      "startMs": 3380,
+      "endMs": 3580
+     },
+     {
+      "text": "Pix",
+      "startMs": 3580,
+      "endMs": 3960
+     },
+     {
+      "text": "para",
+      "startMs": 3960,
+      "endMs": 4180
+     },
+     {
+      "text": "pessoa",
+      "startMs": 4180,
+      "endMs": 4540
+     },
+     {
+      "text": "física",
+      "startMs": 4540,
+      "endMs": 5060
+     },
+     {
+      "text": "fecha",
+      "startMs": 5060,
+      "endMs": 5560
+     },
+     {
+      "text": "a",
+      "startMs": 5560,
+      "endMs": 5700
+     },
+     {
+      "text": "aba",
+      "startMs": 5700,
+      "endMs": 5920
+     }
+    ]
+   },
+   {
+    "type": "cta",
+    "text": "Salva e manda pra quem vai comprar",
+    "emoji": "🛒",
+    "vo": "Salva e manda pra quem vai comprar amanhã.",
+    "audio": "shorts/d2-black-friday-golpe/s4.mp3",
+    "audioSec": 3.048,
+    "words": [
+     {
+      "text": "Salva",
+      "startMs": 0,
+      "endMs": 920
+     },
+     {
+      "text": "e",
+      "startMs": 920,
+      "endMs": 1160
+     },
+     {
+      "text": "manda",
+      "startMs": 1160,
+      "endMs": 1540
+     },
+     {
+      "text": "pra",
+      "startMs": 1540,
+      "endMs": 1680
+     },
+     {
+      "text": "quem",
+      "startMs": 1680,
+      "endMs": 1860
+     },
+     {
+      "text": "vai",
+      "startMs": 1860,
+      "endMs": 2020
+     },
+     {
+      "text": "comprar",
+      "startMs": 2020,
+      "endMs": 2380
+     },
+     {
+      "text": "amanhã",
+      "startMs": 2380,
+      "endMs": 2840
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "d3-copiar-texto-foto",
+  "titulo": "Copie o texto de qualquer foto",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "FUNÇÃO ESCONDIDA",
+    "title": "Copie o texto de *qualquer foto*",
+    "emoji": "📸",
+    "vo": "Para de digitar o que está na foto. Seu celular copia o texto pra você.",
+    "audio": "shorts/d3-copiar-texto-foto/s0.mp3",
+    "audioSec": 4.44,
+    "words": [
+     {
+      "text": "Para",
+      "startMs": 0,
+      "endMs": 140
+     },
+     {
+      "text": "de",
+      "startMs": 140,
+      "endMs": 320
+     },
+     {
+      "text": "digitar",
+      "startMs": 320,
+      "endMs": 780
+     },
+     {
+      "text": "o",
+      "startMs": 780,
+      "endMs": 900
+     },
+     {
+      "text": "que",
+      "startMs": 900,
+      "endMs": 980
+     },
+     {
+      "text": "está",
+      "startMs": 980,
+      "endMs": 1180
+     },
+     {
+      "text": "na",
+      "startMs": 1180,
+      "endMs": 1300
+     },
+     {
+      "text": "foto",
+      "startMs": 1300,
+      "endMs": 1740
+     },
+     {
+      "text": "Seu",
+      "startMs": 1920,
+      "endMs": 2240
+     },
+     {
+      "text": "celular",
+      "startMs": 2240,
+      "endMs": 2680
+     },
+     {
+      "text": "copia",
+      "startMs": 2680,
+      "endMs": 3200
+     },
+     {
+      "text": "o",
+      "startMs": 3200,
+      "endMs": 3260
+     },
+     {
+      "text": "texto",
+      "startMs": 3260,
+      "endMs": 3540
+     },
+     {
+      "text": "pra",
+      "startMs": 3540,
+      "endMs": 3800
+     },
+     {
+      "text": "você",
+      "startMs": 3800,
+      "endMs": 4120
+     }
+    ]
+   },
+   {
+    "type": "scan",
+    "title": "Funciona com",
+    "lines": [
+     "Wi-Fi: CasaSilva_5G",
+     "Senha: 7Hk29#pLm",
+     "Placa, cardápio, documento"
+    ],
+    "vo": "Senha do Wi-Fi, placa, cardápio, documento. Qualquer texto que aparece numa foto.",
+    "audio": "shorts/d3-copiar-texto-foto/s1.mp3",
+    "audioSec": 5.928,
+    "words": [
+     {
+      "text": "Senha",
+      "startMs": 0,
+      "endMs": 400
+     },
+     {
+      "text": "do",
+      "startMs": 400,
+      "endMs": 480
+     },
+     {
+      "text": "Wi-Fi",
+      "startMs": 480,
+      "endMs": 1260
+     },
+     {
+      "text": "placa",
+      "startMs": 1260,
+      "endMs": 1600
+     },
+     {
+      "text": "cardápio",
+      "startMs": 1660,
+      "endMs": 2240
+     },
+     {
+      "text": "documento",
+      "startMs": 2260,
+      "endMs": 2980
+     },
+     {
+      "text": "Qualquer",
+      "startMs": 3120,
+      "endMs": 3340
+     },
+     {
+      "text": "texto",
+      "startMs": 3340,
+      "endMs": 3880
+     },
+     {
+      "text": "que",
+      "startMs": 3880,
+      "endMs": 4140
+     },
+     {
+      "text": "aparece",
+      "startMs": 4140,
+      "endMs": 4580
+     },
+     {
+      "text": "numa",
+      "startMs": 4580,
+      "endMs": 4880
+     },
+     {
+      "text": "foto",
+      "startMs": 4880,
+      "endMs": 5400
+     }
+    ]
+   },
+   {
+    "type": "steps",
+    "title": "No Android",
+    "path": [
+     "Abra a foto no Google Fotos",
+     "Toque em Lens",
+     "Toque em Texto",
+     "Selecione e copie"
+    ],
+    "vo": "No Android, abre a foto no Google Fotos, toca em Lens, depois em Texto, seleciona e copia.",
+    "audio": "shorts/d3-copiar-texto-foto/s2.mp3",
+    "audioSec": 6.408,
+    "words": [
+     {
+      "text": "No",
+      "startMs": 0,
+      "endMs": 100
+     },
+     {
+      "text": "Android",
+      "startMs": 100,
+      "endMs": 600
+     },
+     {
+      "text": "abre",
+      "startMs": 880,
+      "endMs": 1260
+     },
+     {
+      "text": "a",
+      "startMs": 1260,
+      "endMs": 1400
+     },
+     {
+      "text": "foto",
+      "startMs": 1400,
+      "endMs": 1660
+     },
+     {
+      "text": "no",
+      "startMs": 1660,
+      "endMs": 1860
+     },
+     {
+      "text": "Google",
+      "startMs": 1860,
+      "endMs": 2140
+     },
+     {
+      "text": "Fotos",
+      "startMs": 2140,
+      "endMs": 2650
+     },
+     {
+      "text": "toca",
+      "startMs": 2650,
+      "endMs": 3160
+     },
+     {
+      "text": "em",
+      "startMs": 3160,
+      "endMs": 3260
+     },
+     {
+      "text": "Lens",
+      "startMs": 3260,
+      "endMs": 3660
+     },
+     {
+      "text": "depois",
+      "startMs": 3820,
+      "endMs": 4100
+     },
+     {
+      "text": "em",
+      "startMs": 4100,
+      "endMs": 4320
+     },
+     {
+      "text": "Texto",
+      "startMs": 4320,
+      "endMs": 4900
+     },
+     {
+      "text": "seleciona",
+      "startMs": 4920,
+      "endMs": 5620
+     },
+     {
+      "text": "e",
+      "startMs": 5620,
+      "endMs": 5720
+     },
+     {
+      "text": "copia",
+      "startMs": 5720,
+      "endMs": 6160
+     }
+    ]
+   },
+   {
+    "type": "steps",
+    "title": "No iPhone",
+    "path": [
+     "Abra a foto",
+     "Toque e segure no texto",
+     "Copiar"
+    ],
+    "vo": "No iPhone é ainda mais fácil: toca e segura em cima do texto, e copia.",
+    "audio": "shorts/d3-copiar-texto-foto/s3.mp3",
+    "audioSec": 4.872,
+    "words": [
+     {
+      "text": "No",
+      "startMs": 0,
+      "endMs": 140
+     },
+     {
+      "text": "iPhone",
+      "startMs": 140,
+      "endMs": 500
+     },
+     {
+      "text": "é",
+      "startMs": 500,
+      "endMs": 500
+     },
+     {
+      "text": "ainda",
+      "startMs": 500,
+      "endMs": 800
+     },
+     {
+      "text": "mais",
+      "startMs": 800,
+      "endMs": 1160
+     },
+     {
+      "text": "fácil",
+      "startMs": 1160,
+      "endMs": 1720
+     },
+     {
+      "text": "toca",
+      "startMs": 1980,
+      "endMs": 2260
+     },
+     {
+      "text": "e",
+      "startMs": 2260,
+      "endMs": 2500
+     },
+     {
+      "text": "segura",
+      "startMs": 2500,
+      "endMs": 2900
+     },
+     {
+      "text": "em",
+      "startMs": 2900,
+      "endMs": 3000
+     },
+     {
+      "text": "cima",
+      "startMs": 3000,
+      "endMs": 3220
+     },
+     {
+      "text": "do",
+      "startMs": 3220,
+      "endMs": 3380
+     },
+     {
+      "text": "texto",
+      "startMs": 3380,
+      "endMs": 3760
+     },
+     {
+      "text": "e",
+      "startMs": 3760,
+      "endMs": 4080
+     },
+     {
+      "text": "copia",
+      "startMs": 4080,
+      "endMs": 4640
+     }
+    ]
+   },
+   {
+    "type": "cta",
+    "text": "Salva pra usar depois",
+    "emoji": "🔖",
+    "vo": "Salva esse vídeo pra usar depois.",
+    "audio": "shorts/d3-copiar-texto-foto/s4.mp3",
+    "audioSec": 2.592,
+    "words": [
+     {
+      "text": "Salva",
+      "startMs": 0,
+      "endMs": 480
+     },
+     {
+      "text": "esse",
+      "startMs": 480,
+      "endMs": 680
+     },
+     {
+      "text": "vídeo",
+      "startMs": 680,
+      "endMs": 1120
+     },
+     {
+      "text": "pra",
+      "startMs": 1120,
+      "endMs": 1380
+     },
+     {
+      "text": "usar",
+      "startMs": 1380,
+      "endMs": 1660
+     },
+     {
+      "text": "depois",
+      "startMs": 1660,
+      "endMs": 2020
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "d4-conta-de-luz-ia",
+  "titulo": "Conta de luz alta? A IA explica",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "CONTA DE LUZ",
+    "title": "Veio alta? A *IA* te explica",
+    "emoji": "⚡",
+    "vo": "Sua conta de luz veio alta e você não entende nada? A inteligência artificial explica pra você.",
+    "audio": "shorts/d4-conta-de-luz-ia/s0.mp3",
+    "audioSec": 8.376,
+    "words": [
+     {
+      "text": "Sua",
+      "startMs": 0,
+      "endMs": 340
+     },
+     {
+      "text": "conta",
+      "startMs": 340,
+      "endMs": 640
+     },
+     {
+      "text": "de",
+      "startMs": 640,
+      "endMs": 860
+     },
+     {
+      "text": "luz",
+      "startMs": 860,
+      "endMs": 1100
+     },
+     {
+      "text": "veio",
+      "startMs": 1100,
+      "endMs": 1400
+     },
+     {
+      "text": "alta",
+      "startMs": 1400,
+      "endMs": 1960
+     },
+     {
+      "text": "e",
+      "startMs": 1960,
+      "endMs": 2240
+     },
+     {
+      "text": "você",
+      "startMs": 2240,
+      "endMs": 2540
+     },
+     {
+      "text": "não",
+      "startMs": 2540,
+      "endMs": 2800
+     },
+     {
+      "text": "entende",
+      "startMs": 2800,
+      "endMs": 3280
+     },
+     {
+      "text": "nada",
+      "startMs": 3280,
+      "endMs": 3660
+     },
+     {
+      "text": "A",
+      "startMs": 4180,
+      "endMs": 4280
+     },
+     {
+      "text": "inteligência",
+      "startMs": 4280,
+      "endMs": 4980
+     },
+     {
+      "text": "artificial",
+      "startMs": 4980,
+      "endMs": 5440
+     },
+     {
+      "text": "explica",
+      "startMs": 5440,
+      "endMs": 6220
+     },
+     {
+      "text": "pra",
+      "startMs": 6220,
+      "endMs": 6380
+     },
+     {
+      "text": "você",
+      "startMs": 6380,
+      "endMs": 6700
+     }
+    ]
+   },
+   {
+    "type": "bill",
+    "title": "Tire uma foto da conta",
+    "rows": [
+     [
+      "Consumo",
+      "kWh"
+     ],
+     [
+      "Bandeira tarifária",
+      "R$"
+     ],
+     [
+      "Tributos e taxas",
+      "R$"
+     ],
+     [
+      "Total",
+      "R$"
+     ]
+    ],
+    "vo": "Tira uma foto da conta. Antes, cobre o seu CPF e o endereço.",
+    "audio": "shorts/d4-conta-de-luz-ia/s1.mp3",
+    "audioSec": 7.272,
+    "words": [
+     {
+      "text": "Tira",
+      "startMs": 0,
+      "endMs": 280
+     },
+     {
+      "text": "uma",
+      "startMs": 280,
+      "endMs": 480
+     },
+     {
+      "text": "foto",
+      "startMs": 480,
+      "endMs": 860
+     },
+     {
+      "text": "da",
+      "startMs": 860,
+      "endMs": 1040
+     },
+     {
+      "text": "conta",
+      "startMs": 1040,
+      "endMs": 1500
+     },
+     {
+      "text": "Antes",
+      "startMs": 2940,
+      "endMs": 3500
+     },
+     {
+      "text": "cobre",
+      "startMs": 3940,
+      "endMs": 4220
+     },
+     {
+      "text": "o",
+      "startMs": 4220,
+      "endMs": 4300
+     },
+     {
+      "text": "seu",
+      "startMs": 4300,
+      "endMs": 4460
+     },
+     {
+      "text": "CPF",
+      "startMs": 4460,
+      "endMs": 5460
+     },
+     {
+      "text": "e",
+      "startMs": 5460,
+      "endMs": 5740
+     },
+     {
+      "text": "o",
+      "startMs": 5740,
+      "endMs": 5840
+     },
+     {
+      "text": "endereço",
+      "startMs": 5840,
+      "endMs": 6460
+     }
+    ]
+   },
+   {
+    "type": "chat",
+    "title": "Mande para o ChatGPT ou Gemini",
+    "user": "Explique essa conta de luz: quanto consumi, quais taxas e bandeira estão cobrando e o que mais pesou no valor.",
+    "ai": "Seu consumo foi... A bandeira deste mês acrescentou...",
+    "vo": "Manda pro ChatGPT ou pro Gemini com esse pedido: explique essa conta, quanto consumi, quais taxas e bandeira estão cobrando, e o que mais pesou.",
+    "audio": "shorts/d4-conta-de-luz-ia/s2.mp3",
+    "audioSec": 13.296,
+    "words": [
+     {
+      "text": "Manda",
+      "startMs": 0,
+      "endMs": 340
+     },
+     {
+      "text": "pro",
+      "startMs": 340,
+      "endMs": 480
+     },
+     {
+      "text": "ChatGPT",
+      "startMs": 480,
+      "endMs": 1740
+     },
+     {
+      "text": "ou",
+      "startMs": 1740,
+      "endMs": 1960
+     },
+     {
+      "text": "pro",
+      "startMs": 1960,
+      "endMs": 2120
+     },
+     {
+      "text": "Gemini",
+      "startMs": 2120,
+      "endMs": 2800
+     },
+     {
+      "text": "com",
+      "startMs": 2800,
+      "endMs": 2960
+     },
+     {
+      "text": "esse",
+      "startMs": 2960,
+      "endMs": 3180
+     },
+     {
+      "text": "pedido",
+      "startMs": 3180,
+      "endMs": 3780
+     },
+     {
+      "text": "explique",
+      "startMs": 4440,
+      "endMs": 7260
+     },
+     {
+      "text": "essa",
+      "startMs": 7260,
+      "endMs": 7460
+     },
+     {
+      "text": "conta",
+      "startMs": 7460,
+      "endMs": 7900
+     },
+     {
+      "text": "quanto",
+      "startMs": 7900,
+      "endMs": 8200
+     },
+     {
+      "text": "consumi",
+      "startMs": 8200,
+      "endMs": 9000
+     },
+     {
+      "text": "quais",
+      "startMs": 9000,
+      "endMs": 9460
+     },
+     {
+      "text": "taxas",
+      "startMs": 9460,
+      "endMs": 10080
+     },
+     {
+      "text": "e",
+      "startMs": 10080,
+      "endMs": 10180
+     },
+     {
+      "text": "bandeira",
+      "startMs": 10180,
+      "endMs": 10680
+     },
+     {
+      "text": "estão",
+      "startMs": 10680,
+      "endMs": 10920
+     },
+     {
+      "text": "cobrando",
+      "startMs": 10920,
+      "endMs": 11500
+     },
+     {
+      "text": "e",
+      "startMs": 11500,
+      "endMs": 11980
+     },
+     {
+      "text": "o",
+      "startMs": 11980,
+      "endMs": 12080
+     },
+     {
+      "text": "que",
+      "startMs": 12080,
+      "endMs": 12160
+     },
+     {
+      "text": "mais",
+      "startMs": 12160,
+      "endMs": 12380
+     },
+     {
+      "text": "pesou",
+      "startMs": 12380,
+      "endMs": 12980
+     }
+    ]
+   },
+   {
+    "type": "cards",
+    "title": "Depois pergunte",
+    "cards": [
+     "Compare com o mês passado",
+     "Quais aparelhos gastam mais?",
+     "Como economizar em casa?"
+    ],
+    "vo": "Depois, manda a conta do mês passado e pede pra comparar, e pergunta como economizar.",
+    "audio": "shorts/d4-conta-de-luz-ia/s3.mp3",
+    "audioSec": 5.904,
+    "words": [
+     {
+      "text": "Depois",
+      "startMs": 0,
+      "endMs": 440
+     },
+     {
+      "text": "manda",
+      "startMs": 740,
+      "endMs": 1160
+     },
+     {
+      "text": "a",
+      "startMs": 1160,
+      "endMs": 1160
+     },
+     {
+      "text": "conta",
+      "startMs": 1160,
+      "endMs": 1440
+     },
+     {
+      "text": "do",
+      "startMs": 1440,
+      "endMs": 1620
+     },
+     {
+      "text": "mês",
+      "startMs": 1620,
+      "endMs": 1800
+     },
+     {
+      "text": "passado",
+      "startMs": 1800,
+      "endMs": 2300
+     },
+     {
+      "text": "e",
+      "startMs": 2300,
+      "endMs": 2660
+     },
+     {
+      "text": "pede",
+      "startMs": 2660,
+      "endMs": 2980
+     },
+     {
+      "text": "pra",
+      "startMs": 2980,
+      "endMs": 3160
+     },
+     {
+      "text": "comparar",
+      "startMs": 3160,
+      "endMs": 3840
+     },
+     {
+      "text": "e",
+      "startMs": 3840,
+      "endMs": 4140
+     },
+     {
+      "text": "pergunta",
+      "startMs": 4140,
+      "endMs": 4540
+     },
+     {
+      "text": "como",
+      "startMs": 4540,
+      "endMs": 4960
+     },
+     {
+      "text": "economizar",
+      "startMs": 4960,
+      "endMs": 5580
+     }
+    ]
+   },
+   {
+    "type": "cta",
+    "text": "Comenta LUZ se a sua veio alta",
+    "emoji": "💬",
+    "vo": "Comenta luz se a sua também veio alta.",
+    "audio": "shorts/d4-conta-de-luz-ia/s4.mp3",
+    "audioSec": 3.072,
+    "words": [
+     {
+      "text": "Comenta",
+      "startMs": 0,
+      "endMs": 460
+     },
+     {
+      "text": "luz",
+      "startMs": 640,
+      "endMs": 820
+     },
+     {
+      "text": "se",
+      "startMs": 820,
+      "endMs": 1200
+     },
+     {
+      "text": "a",
+      "startMs": 1200,
+      "endMs": 1280
+     },
+     {
+      "text": "sua",
+      "startMs": 1280,
+      "endMs": 1620
+     },
+     {
+      "text": "também",
+      "startMs": 1620,
+      "endMs": 2080
+     },
+     {
+      "text": "veio",
+      "startMs": 2080,
+      "endMs": 2340
+     },
+     {
+      "text": "alta",
+      "startMs": 2340,
+      "endMs": 2760
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "d5-whatsapp-espaco",
+  "titulo": "WhatsApp cheio? Não apague conversas",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "MEMÓRIA CHEIA?",
+    "title": "Não apague suas *conversas*",
+    "emoji": "📦",
+    "vo": "Celular cheio por causa do WhatsApp? Não apaga suas conversas. Faz isso.",
+    "audio": "shorts/d5-whatsapp-espaco/s0.mp3",
+    "audioSec": 4.92,
+    "words": [
+     {
+      "text": "Celular",
+      "startMs": 500,
+      "endMs": 500
+     },
+     {
+      "text": "cheio",
+      "startMs": 500,
+      "endMs": 1020
+     },
+     {
+      "text": "por",
+      "startMs": 1020,
+      "endMs": 1160
+     },
+     {
+      "text": "causa",
+      "startMs": 1160,
+      "endMs": 1400
+     },
+     {
+      "text": "do",
+      "startMs": 1400,
+      "endMs": 1620
+     },
+     {
+      "text": "WhatsApp",
+      "startMs": 1620,
+      "endMs": 2000
+     },
+     {
+      "text": "Não",
+      "startMs": 2000,
+      "endMs": 2660
+     },
+     {
+      "text": "apaga",
+      "startMs": 2660,
+      "endMs": 3080
+     },
+     {
+      "text": "suas",
+      "startMs": 3080,
+      "endMs": 3260
+     },
+     {
+      "text": "conversas",
+      "startMs": 3260,
+      "endMs": 3920
+     },
+     {
+      "text": "Faz",
+      "startMs": 3960,
+      "endMs": 4200
+     },
+     {
+      "text": "isso",
+      "startMs": 4200,
+      "endMs": 4600
+     }
+    ]
+   },
+   {
+    "type": "storage",
+    "title": "O que ocupa espaço de verdade",
+    "segments": [
+     {
+      "label": "Vídeos",
+      "pct": 52
+     },
+     {
+      "label": "Fotos",
+      "pct": 24
+     },
+     {
+      "label": "Áudios",
+      "pct": 14
+     },
+     {
+      "label": "Textos",
+      "pct": 2
+     },
+     {
+      "label": "Outros",
+      "pct": 8
+     }
+    ],
+    "note": "Exemplo ilustrativo",
+    "vo": "O que enche a memória são vídeos, fotos e áudios. As mensagens de texto quase não ocupam nada.",
+    "audio": "shorts/d5-whatsapp-espaco/s1.mp3",
+    "audioSec": 6.336,
+    "words": [
+     {
+      "text": "O",
+      "startMs": 0,
+      "endMs": 120
+     },
+     {
+      "text": "que",
+      "startMs": 120,
+      "endMs": 280
+     },
+     {
+      "text": "enche",
+      "startMs": 280,
+      "endMs": 520
+     },
+     {
+      "text": "a",
+      "startMs": 520,
+      "endMs": 560
+     },
+     {
+      "text": "memória",
+      "startMs": 560,
+      "endMs": 940
+     },
+     {
+      "text": "são",
+      "startMs": 940,
+      "endMs": 1120
+     },
+     {
+      "text": "vídeos",
+      "startMs": 1120,
+      "endMs": 1580
+     },
+     {
+      "text": "fotos",
+      "startMs": 1860,
+      "endMs": 2180
+     },
+     {
+      "text": "e",
+      "startMs": 2180,
+      "endMs": 2400
+     },
+     {
+      "text": "áudios",
+      "startMs": 2400,
+      "endMs": 2920
+     },
+     {
+      "text": "As",
+      "startMs": 3320,
+      "endMs": 3420
+     },
+     {
+      "text": "mensagens",
+      "startMs": 3420,
+      "endMs": 4000
+     },
+     {
+      "text": "de",
+      "startMs": 4000,
+      "endMs": 4180
+     },
+     {
+      "text": "texto",
+      "startMs": 4180,
+      "endMs": 4540
+     },
+     {
+      "text": "quase",
+      "startMs": 4540,
+      "endMs": 4880
+     },
+     {
+      "text": "não",
+      "startMs": 4880,
+      "endMs": 5180
+     },
+     {
+      "text": "ocupam",
+      "startMs": 5180,
+      "endMs": 5660
+     },
+     {
+      "text": "nada",
+      "startMs": 5660,
+      "endMs": 5920
+     }
+    ]
+   },
+   {
+    "type": "steps",
+    "title": "Abra o gerenciador",
+    "path": [
+     "Configurações",
+     "Armazenamento e dados",
+     "Gerenciar armazenamento"
+    ],
+    "vo": "Vai em Configurações, Armazenamento e dados, Gerenciar armazenamento.",
+    "audio": "shorts/d5-whatsapp-espaco/s2.mp3",
+    "audioSec": 6.144,
+    "words": [
+     {
+      "text": "Vai",
+      "startMs": 0,
+      "endMs": 260
+     },
+     {
+      "text": "em",
+      "startMs": 260,
+      "endMs": 440
+     },
+     {
+      "text": "Configurações",
+      "startMs": 440,
+      "endMs": 1380
+     },
+     {
+      "text": "Armazenamento",
+      "startMs": 1620,
+      "endMs": 2500
+     },
+     {
+      "text": "e",
+      "startMs": 2500,
+      "endMs": 2760
+     },
+     {
+      "text": "dados",
+      "startMs": 2760,
+      "endMs": 3120
+     },
+     {
+      "text": "Gerenciar",
+      "startMs": 3560,
+      "endMs": 4200
+     },
+     {
+      "text": "armazenamento",
+      "startMs": 4200,
+      "endMs": 5120
+     }
+    ]
+   },
+   {
+    "type": "cards",
+    "title": "Apague só isso",
+    "cards": [
+     "Arquivos maiores que 5 MB",
+     "Encaminhados várias vezes",
+     "Grupos que você nem lê"
+    ],
+    "vo": "Ali aparecem os arquivos grandes e os encaminhados várias vezes. Apaga só eles. As conversas ficam.",
+    "audio": "shorts/d5-whatsapp-espaco/s3.mp3",
+    "audioSec": 6.96,
+    "words": [
+     {
+      "text": "Ali",
+      "startMs": 0,
+      "endMs": 300
+     },
+     {
+      "text": "aparecem",
+      "startMs": 300,
+      "endMs": 1020
+     },
+     {
+      "text": "os",
+      "startMs": 1020,
+      "endMs": 1140
+     },
+     {
+      "text": "arquivos",
+      "startMs": 1140,
+      "endMs": 1620
+     },
+     {
+      "text": "grandes",
+      "startMs": 1620,
+      "endMs": 2020
+     },
+     {
+      "text": "e",
+      "startMs": 2020,
+      "endMs": 2340
+     },
+     {
+      "text": "os",
+      "startMs": 2340,
+      "endMs": 2440
+     },
+     {
+      "text": "encaminhados",
+      "startMs": 2440,
+      "endMs": 3040
+     },
+     {
+      "text": "várias",
+      "startMs": 3040,
+      "endMs": 3360
+     },
+     {
+      "text": "vezes",
+      "startMs": 3360,
+      "endMs": 3840
+     },
+     {
+      "text": "Apaga",
+      "startMs": 4100,
+      "endMs": 4520
+     },
+     {
+      "text": "só",
+      "startMs": 4520,
+      "endMs": 4760
+     },
+     {
+      "text": "eles",
+      "startMs": 4760,
+      "endMs": 5080
+     },
+     {
+      "text": "As",
+      "startMs": 5320,
+      "endMs": 5440
+     },
+     {
+      "text": "conversas",
+      "startMs": 5440,
+      "endMs": 6040
+     },
+     {
+      "text": "ficam",
+      "startMs": 6040,
+      "endMs": 6540
+     }
+    ]
+   },
+   {
+    "type": "cta",
+    "text": "Manda pra quem vive com o celular cheio",
+    "emoji": "😅",
+    "vo": "Manda pra quem vive com o celular cheio.",
+    "audio": "shorts/d5-whatsapp-espaco/s4.mp3",
+    "audioSec": 2.712,
+    "words": [
+     {
+      "text": "Manda",
+      "startMs": 0,
+      "endMs": 380
+     },
+     {
+      "text": "pra",
+      "startMs": 380,
+      "endMs": 600
+     },
+     {
+      "text": "quem",
+      "startMs": 600,
+      "endMs": 800
+     },
+     {
+      "text": "vive",
+      "startMs": 800,
+      "endMs": 1120
+     },
+     {
+      "text": "com",
+      "startMs": 1120,
+      "endMs": 1400
+     },
+     {
+      "text": "o",
+      "startMs": 1400,
+      "endMs": 1520
+     },
+     {
+      "text": "celular",
+      "startMs": 1520,
+      "endMs": 1860
+     },
+     {
+      "text": "cheio",
+      "startMs": 1860,
+      "endMs": 2480
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "d6-notebook-esquentando",
+  "titulo": "Notebook esquentando: 3 sinais",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "NOTEBOOK",
+    "title": "Esquentando? *3 sinais* de perigo",
+    "emoji": "🔥",
+    "vo": "Notebook esquentando é o começo de muito defeito. Fica de olho nesses três sinais.",
+    "audio": "shorts/d6-notebook-esquentando/s0.mp3",
+    "audioSec": 6.936,
+    "words": [
+     {
+      "text": "Notebook",
+      "startMs": 1360,
+      "endMs": 1900
+     },
+     {
+      "text": "esquentando",
+      "startMs": 1900,
+      "endMs": 2440
+     },
+     {
+      "text": "é",
+      "startMs": 2440,
+      "endMs": 2640
+     },
+     {
+      "text": "o",
+      "startMs": 2640,
+      "endMs": 2700
+     },
+     {
+      "text": "começo",
+      "startMs": 2700,
+      "endMs": 3080
+     },
+     {
+      "text": "de",
+      "startMs": 3080,
+      "endMs": 3300
+     },
+     {
+      "text": "muito",
+      "startMs": 3300,
+      "endMs": 3560
+     },
+     {
+      "text": "defeito",
+      "startMs": 3560,
+      "endMs": 4200
+     },
+     {
+      "text": "Fica",
+      "startMs": 4400,
+      "endMs": 4580
+     },
+     {
+      "text": "de",
+      "startMs": 4580,
+      "endMs": 4740
+     },
+     {
+      "text": "olho",
+      "startMs": 4740,
+      "endMs": 5040
+     },
+     {
+      "text": "nesses",
+      "startMs": 5040,
+      "endMs": 5340
+     },
+     {
+      "text": "três",
+      "startMs": 5340,
+      "endMs": 5620
+     },
+     {
+      "text": "sinais",
+      "startMs": 5620,
+      "endMs": 6220
+     }
+    ]
+   },
+   {
+    "type": "gauge",
+    "title": "Sinais de superaquecimento",
+    "signs": [
+     "Ventoinha barulhenta o tempo todo",
+     "Travando em tarefas simples",
+     "Desligando sozinho"
+    ],
+    "vo": "Ventoinha fazendo barulho o tempo todo, travando em tarefa simples, e o pior: desligando sozinho.",
+    "audio": "shorts/d6-notebook-esquentando/s1.mp3",
+    "audioSec": 8.664,
+    "words": [
+     {
+      "text": "Ventoinha",
+      "startMs": 0,
+      "endMs": 600
+     },
+     {
+      "text": "fazendo",
+      "startMs": 600,
+      "endMs": 1020
+     },
+     {
+      "text": "barulho",
+      "startMs": 1020,
+      "endMs": 1620
+     },
+     {
+      "text": "o",
+      "startMs": 1620,
+      "endMs": 1740
+     },
+     {
+      "text": "tempo",
+      "startMs": 1740,
+      "endMs": 2000
+     },
+     {
+      "text": "todo",
+      "startMs": 2000,
+      "endMs": 2420
+     },
+     {
+      "text": "travando",
+      "startMs": 2900,
+      "endMs": 3400
+     },
+     {
+      "text": "em",
+      "startMs": 3400,
+      "endMs": 3540
+     },
+     {
+      "text": "tarefa",
+      "startMs": 3540,
+      "endMs": 3980
+     },
+     {
+      "text": "simples",
+      "startMs": 3980,
+      "endMs": 4460
+     },
+     {
+      "text": "e",
+      "startMs": 4460,
+      "endMs": 4820
+     },
+     {
+      "text": "o",
+      "startMs": 4820,
+      "endMs": 4920
+     },
+     {
+      "text": "pior",
+      "startMs": 4920,
+      "endMs": 5200
+     },
+     {
+      "text": "desligando",
+      "startMs": 5200,
+      "endMs": 6240
+     },
+     {
+      "text": "sozinho",
+      "startMs": 6240,
+      "endMs": 6820
+     }
+    ]
+   },
+   {
+    "type": "compare",
+    "title": "O erro mais comum",
+    "bad": {
+     "label": "Na cama/sofá",
+     "text": "Tampa a entrada de ar"
+    },
+    "good": {
+     "label": "Mesa ou suporte",
+     "text": "Ar circula livre"
+    },
+    "vo": "O erro mais comum é usar na cama ou no sofá. O tecido tampa a entrada de ar.",
+    "audio": "shorts/d6-notebook-esquentando/s2.mp3",
+    "audioSec": 6.048,
+    "words": [
+     {
+      "text": "O",
+      "startMs": 0,
+      "endMs": 160
+     },
+     {
+      "text": "erro",
+      "startMs": 160,
+      "endMs": 360
+     },
+     {
+      "text": "mais",
+      "startMs": 360,
+      "endMs": 560
+     },
+     {
+      "text": "comum",
+      "startMs": 560,
+      "endMs": 980
+     },
+     {
+      "text": "é",
+      "startMs": 980,
+      "endMs": 1260
+     },
+     {
+      "text": "usar",
+      "startMs": 1260,
+      "endMs": 1500
+     },
+     {
+      "text": "na",
+      "startMs": 1500,
+      "endMs": 1720
+     },
+     {
+      "text": "cama",
+      "startMs": 1720,
+      "endMs": 2100
+     },
+     {
+      "text": "ou",
+      "startMs": 2100,
+      "endMs": 2380
+     },
+     {
+      "text": "no",
+      "startMs": 2380,
+      "endMs": 2500
+     },
+     {
+      "text": "sofá",
+      "startMs": 2500,
+      "endMs": 2980
+     },
+     {
+      "text": "O",
+      "startMs": 3240,
+      "endMs": 3300
+     },
+     {
+      "text": "tecido",
+      "startMs": 3300,
+      "endMs": 3740
+     },
+     {
+      "text": "tampa",
+      "startMs": 3740,
+      "endMs": 4300
+     },
+     {
+      "text": "a",
+      "startMs": 4300,
+      "endMs": 4460
+     },
+     {
+      "text": "entrada",
+      "startMs": 4460,
+      "endMs": 4820
+     },
+     {
+      "text": "de",
+      "startMs": 4820,
+      "endMs": 5140
+     },
+     {
+      "text": "ar",
+      "startMs": 5140,
+      "endMs": 5280
+     }
+    ]
+   },
+   {
+    "type": "cards",
+    "title": "O que fazer",
+    "cards": [
+     "Use em superfície dura",
+     "Ctrl + Shift + Esc: veja o que pesa",
+     "Limpeza interna 1x por ano"
+    ],
+    "vo": "Usa numa superfície dura, abre o Gerenciador de Tarefas pra ver o que está pesando, e faz uma limpeza interna pelo menos uma vez por ano.",
+    "audio": "shorts/d6-notebook-esquentando/s3.mp3",
+    "audioSec": 9.504,
+    "words": [
+     {
+      "text": "Usa",
+      "startMs": 0,
+      "endMs": 480
+     },
+     {
+      "text": "numa",
+      "startMs": 480,
+      "endMs": 600
+     },
+     {
+      "text": "superfície",
+      "startMs": 600,
+      "endMs": 1220
+     },
+     {
+      "text": "dura",
+      "startMs": 1220,
+      "endMs": 1560
+     },
+     {
+      "text": "abre",
+      "startMs": 1960,
+      "endMs": 2260
+     },
+     {
+      "text": "o",
+      "startMs": 2260,
+      "endMs": 2360
+     },
+     {
+      "text": "Gerenciador",
+      "startMs": 2360,
+      "endMs": 2980
+     },
+     {
+      "text": "de",
+      "startMs": 2980,
+      "endMs": 3140
+     },
+     {
+      "text": "Tarefas",
+      "startMs": 3140,
+      "endMs": 3720
+     },
+     {
+      "text": "pra",
+      "startMs": 3720,
+      "endMs": 3920
+     },
+     {
+      "text": "ver",
+      "startMs": 3920,
+      "endMs": 4160
+     },
+     {
+      "text": "o",
+      "startMs": 4160,
+      "endMs": 4280
+     },
+     {
+      "text": "que",
+      "startMs": 4280,
+      "endMs": 4380
+     },
+     {
+      "text": "está",
+      "startMs": 4380,
+      "endMs": 4620
+     },
+     {
+      "text": "pesando",
+      "startMs": 4620,
+      "endMs": 5220
+     },
+     {
+      "text": "e",
+      "startMs": 5220,
+      "endMs": 5340
+     },
+     {
+      "text": "faz",
+      "startMs": 5340,
+      "endMs": 5580
+     },
+     {
+      "text": "uma",
+      "startMs": 5580,
+      "endMs": 5800
+     },
+     {
+      "text": "limpeza",
+      "startMs": 5800,
+      "endMs": 6300
+     },
+     {
+      "text": "interna",
+      "startMs": 6300,
+      "endMs": 6740
+     },
+     {
+      "text": "pelo",
+      "startMs": 6740,
+      "endMs": 6900
+     },
+     {
+      "text": "menos",
+      "startMs": 6900,
+      "endMs": 7240
+     },
+     {
+      "text": "uma",
+      "startMs": 7240,
+      "endMs": 7460
+     },
+     {
+      "text": "vez",
+      "startMs": 7460,
+      "endMs": 7680
+     },
+     {
+      "text": "por",
+      "startMs": 7680,
+      "endMs": 7940
+     },
+     {
+      "text": "ano",
+      "startMs": 7940,
+      "endMs": 8160
+     }
+    ]
+   },
+   {
+    "type": "cta",
+    "text": "Manda pra quem usa notebook na cama",
+    "emoji": "💻",
+    "vo": "Manda pra quem usa notebook na cama.",
+    "audio": "shorts/d6-notebook-esquentando/s4.mp3",
+    "audioSec": 3.0,
+    "words": [
+     {
+      "text": "Manda",
+      "startMs": 0,
+      "endMs": 460
+     },
+     {
+      "text": "pra",
+      "startMs": 460,
+      "endMs": 700
+     },
+     {
+      "text": "quem",
+      "startMs": 700,
+      "endMs": 960
+     },
+     {
+      "text": "usa",
+      "startMs": 960,
+      "endMs": 1320
+     },
+     {
+      "text": "notebook",
+      "startMs": 1320,
+      "endMs": 1940
+     },
+     {
+      "text": "na",
+      "startMs": 1940,
+      "endMs": 2280
+     },
+     {
+      "text": "cama",
+      "startMs": 2280,
+      "endMs": 2640
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "d7-3-pedidos-ia",
+  "titulo": "3 pedidos para a IA que poupam seu tempo",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "IA NO DIA A DIA",
+    "title": "3 pedidos que *poupam* seu tempo",
+    "emoji": "🤖",
+    "vo": "Três pedidos pra copiar e colar no ChatGPT ou no Gemini que vão te poupar tempo.",
+    "audio": "shorts/d7-3-pedidos-ia/s0.mp3",
+    "audioSec": 6.072,
+    "words": [
+     {
+      "text": "Três",
+      "startMs": 0,
+      "endMs": 260
+     },
+     {
+      "text": "pedidos",
+      "startMs": 260,
+      "endMs": 880
+     },
+     {
+      "text": "pra",
+      "startMs": 880,
+      "endMs": 1100
+     },
+     {
+      "text": "copiar",
+      "startMs": 1100,
+      "endMs": 1640
+     },
+     {
+      "text": "e",
+      "startMs": 1640,
+      "endMs": 1840
+     },
+     {
+      "text": "colar",
+      "startMs": 1840,
+      "endMs": 2140
+     },
+     {
+      "text": "no",
+      "startMs": 2140,
+      "endMs": 2240
+     },
+     {
+      "text": "ChatGPT",
+      "startMs": 2240,
+      "endMs": 3560
+     },
+     {
+      "text": "ou",
+      "startMs": 3560,
+      "endMs": 3880
+     },
+     {
+      "text": "no",
+      "startMs": 3880,
+      "endMs": 4020
+     },
+     {
+      "text": "Gemini",
+      "startMs": 4020,
+      "endMs": 4520
+     },
+     {
+      "text": "que",
+      "startMs": 4520,
+      "endMs": 4720
+     },
+     {
+      "text": "vão",
+      "startMs": 4720,
+      "endMs": 4940
+     },
+     {
+      "text": "te",
+      "startMs": 4940,
+      "endMs": 5080
+     },
+     {
+      "text": "poupar",
+      "startMs": 5080,
+      "endMs": 5460
+     },
+     {
+      "text": "tempo",
+      "startMs": 5460,
+      "endMs": 5740
+     }
+    ]
+   },
+   {
+    "type": "chat",
+    "title": "1. Resumo que vira ação",
+    "user": "Resuma este texto em 5 tópicos e diga o que eu preciso fazer.",
+    "ai": "1. Prazo: sexta... Você precisa: enviar o documento...",
+    "vo": "Um: cola aquele textão, ou aquela mensagem de grupo, e pede: resuma em cinco tópicos e diga o que eu preciso fazer.",
+    "audio": "shorts/d7-3-pedidos-ia/s1.mp3",
+    "audioSec": 8.04,
+    "words": [
+     {
+      "text": "Um",
+      "startMs": 0,
+      "endMs": 240
+     },
+     {
+      "text": "cola",
+      "startMs": 440,
+      "endMs": 680
+     },
+     {
+      "text": "aquele",
+      "startMs": 680,
+      "endMs": 920
+     },
+     {
+      "text": "textão",
+      "startMs": 920,
+      "endMs": 1560
+     },
+     {
+      "text": "ou",
+      "startMs": 1560,
+      "endMs": 1780
+     },
+     {
+      "text": "aquela",
+      "startMs": 1780,
+      "endMs": 2020
+     },
+     {
+      "text": "mensagem",
+      "startMs": 2020,
+      "endMs": 2540
+     },
+     {
+      "text": "de",
+      "startMs": 2540,
+      "endMs": 2700
+     },
+     {
+      "text": "grupo",
+      "startMs": 2700,
+      "endMs": 3060
+     },
+     {
+      "text": "e",
+      "startMs": 3060,
+      "endMs": 3400
+     },
+     {
+      "text": "pede",
+      "startMs": 3400,
+      "endMs": 3840
+     },
+     {
+      "text": "resuma",
+      "startMs": 3840,
+      "endMs": 4380
+     },
+     {
+      "text": "em",
+      "startMs": 4380,
+      "endMs": 4520
+     },
+     {
+      "text": "cinco",
+      "startMs": 4520,
+      "endMs": 4800
+     },
+     {
+      "text": "tópicos",
+      "startMs": 4800,
+      "endMs": 5420
+     },
+     {
+      "text": "e",
+      "startMs": 5420,
+      "endMs": 5880
+     },
+     {
+      "text": "diga",
+      "startMs": 5880,
+      "endMs": 6220
+     },
+     {
+      "text": "o",
+      "startMs": 6220,
+      "endMs": 6260
+     },
+     {
+      "text": "que",
+      "startMs": 6260,
+      "endMs": 6360
+     },
+     {
+      "text": "eu",
+      "startMs": 6360,
+      "endMs": 6420
+     },
+     {
+      "text": "preciso",
+      "startMs": 6420,
+      "endMs": 6740
+     },
+     {
+      "text": "fazer",
+      "startMs": 6740,
+      "endMs": 7180
+     }
+    ]
+   },
+   {
+    "type": "chat",
+    "title": "2. Mensagem difícil",
+    "user": "Escreva uma mensagem educada e firme para cobrar um cliente que atrasou o pagamento.",
+    "ai": "Olá, tudo bem? Passando para lembrar...",
+    "vo": "Dois: mensagem difícil. Peça: escreva uma mensagem educada e firme, e diga a situação.",
+    "audio": "shorts/d7-3-pedidos-ia/s2.mp3",
+    "audioSec": 7.44,
+    "words": [
+     {
+      "text": "Dois",
+      "startMs": 0,
+      "endMs": 780
+     },
+     {
+      "text": "mensagem",
+      "startMs": 780,
+      "endMs": 1320
+     },
+     {
+      "text": "difícil",
+      "startMs": 1320,
+      "endMs": 2020
+     },
+     {
+      "text": "Peça",
+      "startMs": 2080,
+      "endMs": 2660
+     },
+     {
+      "text": "escreva",
+      "startMs": 3060,
+      "endMs": 3500
+     },
+     {
+      "text": "uma",
+      "startMs": 3500,
+      "endMs": 3660
+     },
+     {
+      "text": "mensagem",
+      "startMs": 3660,
+      "endMs": 4160
+     },
+     {
+      "text": "educada",
+      "startMs": 4160,
+      "endMs": 4740
+     },
+     {
+      "text": "e",
+      "startMs": 4740,
+      "endMs": 4860
+     },
+     {
+      "text": "firme",
+      "startMs": 4860,
+      "endMs": 5580
+     },
+     {
+      "text": "e",
+      "startMs": 5580,
+      "endMs": 5700
+     },
+     {
+      "text": "diga",
+      "startMs": 5700,
+      "endMs": 6040
+     },
+     {
+      "text": "a",
+      "startMs": 6040,
+      "endMs": 6040
+     },
+     {
+      "text": "situação",
+      "startMs": 6040,
+      "endMs": 6480
+     }
+    ]
+   },
+   {
+    "type": "chat",
+    "title": "3. Cardápio da semana",
+    "user": "Tenho ovos, arroz, frango e tomate. Monte o cardápio da semana e a lista de compras.",
+    "ai": "Segunda: frango com arroz... Lista: cebola, alho...",
+    "vo": "Três: fala o que tem na geladeira e pede o cardápio da semana com a lista de compras.",
+    "audio": "shorts/d7-3-pedidos-ia/s3.mp3",
+    "audioSec": 5.112,
+    "words": [
+     {
+      "text": "Três",
+      "startMs": 0,
+      "endMs": 0
+     },
+     {
+      "text": "fala",
+      "startMs": 0,
+      "endMs": 720
+     },
+     {
+      "text": "o",
+      "startMs": 720,
+      "endMs": 800
+     },
+     {
+      "text": "que",
+      "startMs": 800,
+      "endMs": 880
+     },
+     {
+      "text": "tem",
+      "startMs": 880,
+      "endMs": 1120
+     },
+     {
+      "text": "na",
+      "startMs": 1120,
+      "endMs": 1240
+     },
+     {
+      "text": "geladeira",
+      "startMs": 1240,
+      "endMs": 1880
+     },
+     {
+      "text": "e",
+      "startMs": 1880,
+      "endMs": 2080
+     },
+     {
+      "text": "pede",
+      "startMs": 2080,
+      "endMs": 2380
+     },
+     {
+      "text": "o",
+      "startMs": 2380,
+      "endMs": 2460
+     },
+     {
+      "text": "cardápio",
+      "startMs": 2460,
+      "endMs": 2980
+     },
+     {
+      "text": "da",
+      "startMs": 2980,
+      "endMs": 3060
+     },
+     {
+      "text": "semana",
+      "startMs": 3060,
+      "endMs": 3420
+     },
+     {
+      "text": "com",
+      "startMs": 3420,
+      "endMs": 3700
+     },
+     {
+      "text": "a",
+      "startMs": 3700,
+      "endMs": 3820
+     },
+     {
+      "text": "lista",
+      "startMs": 3820,
+      "endMs": 4040
+     },
+     {
+      "text": "de",
+      "startMs": 4040,
+      "endMs": 4240
+     },
+     {
+      "text": "compras",
+      "startMs": 4240,
+      "endMs": 4720
+     }
+    ]
+   },
+   {
+    "type": "cta",
+    "text": "Salva pra testar hoje",
+    "emoji": "🔖",
+    "vo": "Salva pra testar hoje.",
+    "audio": "shorts/d7-3-pedidos-ia/s4.mp3",
+    "audioSec": 2.088,
+    "words": [
+     {
+      "text": "Salva",
+      "startMs": 0,
+      "endMs": 560
+     },
+     {
+      "text": "pra",
+      "startMs": 560,
+      "endMs": 760
+     },
+     {
+      "text": "testar",
+      "startMs": 760,
+      "endMs": 1380
+     },
+     {
+      "text": "hoje",
+      "startMs": 1380,
+      "endMs": 1800
+     }
+    ]
+   }
+  ]
+ }
+]
